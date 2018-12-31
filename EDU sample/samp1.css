@@ -1,0 +1,204 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.right {
+    
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.left {
+    
+    float: right;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    
+}
+
+.clear {
+    
+    clear: both;
+    list-style: none;
+}
+
+
+
+.logo {
+    
+    width: 100px;
+    margin-left: -20px;
+    position: relative;
+    top: -15px;
+    background-color: blue;
+}
+
+.topbar {
+    
+    height: 70px;
+    
+}
+
+li {
+    
+    padding: 6px
+}
+
+.search {
+    
+    margin-right: 10px;
+}
+
+.src-inpt {
+    
+    height: 35px;
+    width: 400px;
+    border: 2px solid lightgrey;
+    position: relative;
+    top: -11px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.sub {
+    
+    width: 80px;
+    height: 42px;
+    border: none;
+    position: relative;
+    left: -20px;
+    top: -10px;
+    background-color: lightgrey;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.subm {
+    
+    margin-right: 400px;
+    
+}
+
+.para {
+    
+    background-color: coral;
+    color: white;
+    width: 10%;
+    height: 30px;
+    margin-left: 3%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+.para:hover {
+    
+    box-shadow: 2px 2px 2px 2px coral;
+}
+
+.lnk {
+    
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+.vds {
+    
+    background-color: black;
+    height: 110px;
+    width: 210px;
+    display: inline-block;
+    margin-left: 30px;
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+
+}
+
+
+.scl-vds {
+    
+    margin-left: 100px;
+    
+}
+
+.sbjct-vds {
+    
+    width: 18%;
+    padding: 10px;
+}
+
+
+.txt {
+    
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.vws {
+    
+    margin-left: 13px;
+    
+}
+
+.cnl {
+    
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.prnt {
+    
+    width: 230px;
+    height: 300px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.prnt:hover{
+    
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.time {
+    
+    position: relative;
+    left: 100px;
+    top: -38px
+}
+
+.hr {
+    
+    margin-top: 50px;
+}
+
+.tcr {
+    width: 20%;
+}
+
+
+
+.tgr {
+    
+    width: 100px;
+}
+
+.top {
+    
+}
+
+
+
+.scnc {
+    
+}

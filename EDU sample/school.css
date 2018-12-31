@@ -1,0 +1,418 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+.lg-img {
+    height: 40px;
+    background-color: black;
+}
+
+.srch-inpt {
+    
+    position: relative;
+    top: -6px;
+    left: 100px;
+    width: 360px;
+    height: 36px;
+    padding: 10px;
+    border: 2px solid lightgrey;
+    font-size: 17px;
+    
+}
+
+.tp {
+    position: fixed;
+    height: 68px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px grey;
+    z-index: 1;
+    background-color: lightgreen;
+
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.srch-sbmt {
+    
+    position: relative;
+    left: 96px;
+    top: 4px;
+    height: 29px;
+    width: 34px;
+    border: 2px solid lightgrey;
+    cursor: pointer;
+}
+
+.ntfctn {
+    position: relative;
+    left: 600px;
+    height: 30px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.sbscriptn {
+    
+    position: relative;
+    left: 620px;
+    height: 30px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.prfl {
+    height: 40px;
+    position: relative;
+    left: 640px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.stng {
+    height: 40px;
+    position: relative;
+    left: 660px;
+    top: 12px;
+}
+
+.scl-img-prnt {
+    
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.scl-txt-prnt {
+    position: relative;
+    left: 150px;
+    top: -10px;
+}
+
+.scl-txt {
+    font-size: 20px;
+}
+
+.hr {
+    
+    margin-top: 30px;
+    width: 125%;
+}
+.vd-btn {
+    
+    width: 100px;
+    height: 40px;
+    background-color: lightgrey;
+    color: green;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 10px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.vd-btn:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+
+.vd-btn-vds-prnt {
+    
+    position: relative;
+    left: 250px;
+    top: -160px;
+    width: 97.7%;
+}
+
+.rcnt-vd-txt {
+    font-size: 19px;
+}
+
+
+.lnks {
+    text-decoration: none;
+}
+
+.vd-btn-vds {
+    width: 239px;
+    height: 330px;
+    position: relative;
+    top: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.vd-btn-vds:hover {
+    
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+.vd-btn-vd-ttl {
+    padding-left: 8px;
+    font-size: 19px;
+    color: black;
+}
+
+.cnl-lnk {
+    margin-left: 8px;
+    font-size: 18px;
+    color: coral;
+}
+
+.tm {
+    padding-left: 8px;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.vw {
+    position: relative;
+    left: 100px;
+    top: -40px;
+}
+
+
+
+.plr-upld-vd-txt {
+    position: relative;
+    top: 60px;
+    font-size: 19px;
+}
+
+.plr-upld-vd {
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+}
+
+.mst-lkd-vd-txt {
+    position: relative;
+    top: 140px;
+    font-size: 19px;
+}
+
+.mst-lkd-vd {
+    position: relative;
+    top: 160px;
+}
+
+.all-vd-txt {
+    position: relative;
+    top: 190px;
+    font-size: 19px;
+}
+
+.all-vds {
+    position: relative;
+    top: 260px;
+    margin-top: 40px;
+}
+
+.all-vds {
+    position: relative;
+    top: 220px;
+}
+
+.all-vd {
+    position: relative;
+    top: 220px;
+}
+
+.prcnt-lkd {
+    margin-left: 15px;
+    position: relative;
+    top: -27px;
+    font-size: 18px;
+}
+
+.plylst {
+    height: 300px;
+    position: relative;
+    top: 16px;
+}
+
+.scnc {
+    position: relative;
+    top: 40px;
+}
+
+.scnc-vd {
+    position: relative;
+    top: 60px;
+}
+
+.ss {
+    position: relative;
+    top: 80px;
+}
+
+.ss-vd {
+    position: relative;
+    top: 100px;
+}
+
+.hnd {
+    position: relative;
+    top: 130px;
+}
+
+.hnd-vds {
+    position: relative;
+    top: 150px;
+}
+
+
+
+.sc-body {
+    height: 2000px;
+}
+
+.btn-tpp {
+    position: fixed;
+}
+
+.prfl-img {
+    position: relative;
+    left: 200px;
+    top: 30px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.prfl-prnt {
+    width: 700px;
+    position: relative;
+    left: 150px;
+    height: 600px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+*/
+
+.prfl-txt {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding: 50px;
+    line-height: 30px;
+    word-spacing: 1;
+    font-size: 18px;
+}
+
+.prfl-dtl-prnt {
+    position: relative;
+    left: 900px;
+    top: -600px;
+    border: 2px solid lightgrey;
+    height: 600px;
+    width: 360px;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+.prfl-dtl-prnt:hover {
+    
+    box-shadow: 4px 4px 4px 4px lightgrey;
+}
+
+.dtls {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.prfl-txt-prnt {
+    position: relative;
+    top: 50px;
+    padding: 30px;
+    line-height: 30px;
+    word-spacing: 2;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.srch-rslt-img {
+    position: relative;
+    left: 20%;
+    top: 160px;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: inline-block;
+}
+
+.srch-rslt-ttl {
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 19px;
+    display: inline-block;
+    color: black;
+}
+
+.cnl-nm {
+    position: relative;
+    left: 45%;
+    top: -10px;
+    color: grey;
+    display: inline-block;
+}
+
+.srch-vw {
+    position: relative;
+    left: 47%;
+    display: inline-block;
+}
+
+.cnl-tm {
+    position: relative;
+    left: 48%;
+    display: inline-block;
+}
+
+.cnl-lks {
+    position: relative;
+    left: 50%;
+    display: inline-block;
+}
+
+.srch-rslt-dtl {
+    position: relative;
+    left: 10%;
+    top: 20px;
+    color: grey;
+    display: inline-block;
+}
+
+
+
+.srch-prnt {
+    margin-top: -60px;
+}
+
+
+
+.vd {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 15%;
+    top: 220px;
+}
+
+
